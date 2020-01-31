@@ -8,10 +8,9 @@
 
 import UIKit
 
-class PinkViewController: UIViewController {
-    var state: Int = 0
+class PinkViewController: ViewController {
     
-    @IBOutlet weak var stateLabel: UILabel!
+    
     @IBOutlet weak var doubleStateLabel: UILabel!
     
     override func viewDidLoad() {

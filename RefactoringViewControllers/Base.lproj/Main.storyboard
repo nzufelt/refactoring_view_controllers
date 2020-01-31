@@ -48,7 +48,7 @@
                     <navigationItem key="navigationItem" id="AkS-5L-PQE"/>
                     <connections>
                         <outlet property="doubleStateLabel" destination="sUD-Ng-H0d" id="hQZ-gr-z9x"/>
-                        <outlet property="stateLabel" destination="Am0-q7-CLn" id="8pB-BU-s08"/>
+                        <outlet property="stateLabel" destination="Am0-q7-CLn" id="44K-zy-pAg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -135,7 +135,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="r2F-hz-jbx"/>
                     <connections>
-                        <outlet property="stateLabel" destination="xgU-lt-sF4" id="8Qo-85-9rq"/>
+                        <outlet property="stateLabel" destination="xgU-lt-sF4" id="DR2-x5-FK8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBM-gZ-wEO" sceneMemberID="firstResponder"/>
@@ -193,7 +193,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ORe-DD-sXN"/>
                     <connections>
-                        <outlet property="stateLabel" destination="fBB-Eg-f0n" id="LMr-Fc-oDf"/>
+                        <outlet property="stateLabel" destination="fBB-Eg-f0n" id="3Te-Fv-enk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kbB-QX-wfq" sceneMemberID="firstResponder"/>

@@ -8,9 +8,8 @@
 
 import UIKit
 
-class GreenViewController: UIViewController {
-    var state: Int = 0
-    @IBOutlet weak var stateLabel: UILabel!
+class GreenViewController: ViewController {
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +22,12 @@ class GreenViewController: UIViewController {
         stateLabel.text = "\(state)"
         
         // Set the color based on this
-        stateLabel.backgroundColor = UIColor(hue: CGFloat(Double(state)/256.0), saturation: CGFloat(0.5), brightness: CGFloat(0.95), alpha: CGFloat(1.0))
+        stateLabel.backgroundColor = UIColor(
+            hue: CGFloat(Double(state)/256.0),
+            saturation: CGFloat(0.5),
+            brightness: CGFloat(0.95),
+            alpha: CGFloat(1.0)
+        )
     }
     
     /*

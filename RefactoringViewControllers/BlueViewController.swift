@@ -8,9 +8,8 @@
 
 import UIKit
 
-class BlueViewController: UIViewController {
-    @IBOutlet weak var stateLabel: UILabel!
-    var state: Int = 0
+class BlueViewController: ViewController {
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
