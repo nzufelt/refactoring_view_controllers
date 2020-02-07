@@ -10,10 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     var state: Int = 0
-
     @IBOutlet weak var stateLabel: UILabel!
     
-    
+    @IBAction func incrementPressed(_ sender: Any) {
+        state += 1
+        stateLabel.text = "\(state)"
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

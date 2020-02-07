@@ -30,7 +30,7 @@
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Increment!"/>
                                 <connections>
-                                    <action selector="incrementPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Axj-oe-Opt"/>
+                                    <action selector="incrementPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nVI-dx-KRQ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUD-Ng-H0d">
@@ -61,6 +61,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="eAW-lJ-bwU" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sAx-tt-dS2">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
